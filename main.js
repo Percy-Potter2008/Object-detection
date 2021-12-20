@@ -20,6 +20,16 @@ if(error){console.log(error);}
 }
 function draw(){
 image(img, 0, 0, 640, 420);
+  fill("Red");
+  text("dog", 45, 75);
+  noFill();
+  stroke("Maroon");
+  rect(30, 60, 450, 350);
+  fill("green");
+  text("cat", 320, 120);
+  noFill();
+  stroke("Limegreen");
+  rect(300, 90, 270, 320);
   if(status!= ""){
   for(i=0;i<objects.length;i++){
   document.getElementById("status").innerHTML="Status:Object Detected";
